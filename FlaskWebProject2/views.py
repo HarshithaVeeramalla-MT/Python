@@ -15,8 +15,8 @@ import csv
 import openpyxl
 
 
+
 @app.route('/')
-@app.route('/home')
 def hello_word():
     return render_template("index.html")
 
